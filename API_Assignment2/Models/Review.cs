@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace API_Assignment2.Models
 {
-    [Table("Review")]
+    [Table("reviews")]
     public class Review
     {
         [Key]
