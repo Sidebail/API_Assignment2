@@ -14,5 +14,8 @@ namespace API_Assignment2.Models
 
         // reference  the Review model for CRUD
         public DbSet<Review> Reviews { get; set; }
+
+        // reference  the Reviewer model for CRUD
+        public DbSet<Reviewer> Reviewers { get; set; }
     }
 }
